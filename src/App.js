@@ -1,5 +1,9 @@
 import logo from './logo.svg';
 import './App.css';
+import AcUnitIcon from '@mui/icons-material/AcUnit';
+import Icon from '@mui/material/Icon';
+import Button from '@mui/material/Button';
+import IconButton from '@mui/material/IconButton';
 
 function App() {
   return (
@@ -9,6 +13,10 @@ function App() {
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
+        <IconButton color="primary">
+          <AcUnitIcon/>
+        </IconButton>
+        
         <a
           className="App-link"
           href="https://reactjs.org"
